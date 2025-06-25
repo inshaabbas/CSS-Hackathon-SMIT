@@ -1,0 +1,166 @@
+.hover-img{
+    transition: transform 0.3s ease;
+}
+
+.hover-img:hover{
+    transform: scale(1.1);
+}
+
+.hero-sec{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    height: 500px;
+    background-color: aliceblue;
+    padding-top: 80px;
+}
+
+.hero-text{
+    width: 50%;
+}
+
+.hero-text h2{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 1010px) {
+    .hero-img img{
+        width: 350px;
+        height: 300px;
+    }
+    .hero-sec{
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .hero-sec{
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .hero-text{
+    width: 100%;
+}
+}
+
+/* Hero Section End */
+
+/* Contact Section Starts */
+
+.contact-section{
+    display: flex;
+    justify-content: space-between;
+    /* height: 400px; */
+    height: auto;
+    background-color: aliceblue;
+    margin-top: 20px;
+    padding: 60px 0px 40px 20px
+}
+
+.contact-form{
+    width: 100%;
+    margin-left: 40px;
+}
+
+.radio-group {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.radio-group label{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-size: 14px;
+  color: #333;
+  cursor: pointer;
+  /* width: 100px; */
+  white-space: nowrap
+}
+
+
+input[type="radio"] {
+  accent-color: #b9ff66; 
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+input,
+textarea {
+  width: 100%;
+  max-width: 500px;
+  padding: 12px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 12px;
+  width: 100%;
+  max-width: 500px;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #333;
+}
+
+.contact-image {
+  flex: 1;
+  text-align: right; 
+  min-width: 300px;
+  overflow-x: hidden;
+}
+
+@media screen and (max-width: 890px){
+    .contact-image img {
+        display: none;
+    }
+
+    .contact-section {
+        flex-direction: column;
+        align-items: center; 
+        padding: 30px 20px;
+    }
+
+    .contact-form {
+        margin-left: 0; 
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        /* background-color: pink;  */
+    }
+
+    .form-group,
+    input,
+    textarea,
+    button {
+        width: 100%; 
+        max-width: 600px;
+    }
+}
+
+/* Contact Section Starts */
