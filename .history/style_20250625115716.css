@@ -546,7 +546,7 @@ textarea {
 }
 
 @media screen and (max-width: 1084px){
-    .contact-head{
+    .working-head{
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -555,6 +555,7 @@ textarea {
         margin-left: 0px;
     }
 
+    ntact-head
 }
 
 @media screen and (max-width: 500px){
