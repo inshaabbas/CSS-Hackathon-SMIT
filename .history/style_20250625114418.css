@@ -662,11 +662,11 @@ hr{
     width: 100%;
   }
 
-  /* .fot-input input,
+  .fot-input input,
   .btn-sub {
     width: 100%;
     max-width: 100px;
-  } */
+  }
 }
 
 
@@ -685,18 +685,19 @@ hr{
 
     .fot-input{
         flex-direction: column;
-        width: 280px;
+        /* width: 220px; */
+        width: 80%;
     }
 
     .fot-input{
-    max-width: 280px;
+    max-width: 180px;
     width: 50%;
 }
 }
 
-@media screen and (max-width: 594px){
+@media screen and (max-width: 536px){
     .fot-input{
-        max-width: 200px;
+        max-width: 100px;
         width: 100%;
     }
 }
